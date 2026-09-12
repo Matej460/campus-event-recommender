@@ -1,0 +1,91 @@
+student_id,name,email,faculty,year_of_study,latitude,longitude,interests,available_from,available_to,max_price
+1,Marko Cvetkov,marko.cvetkov@students.ukim.mk,Computer Science,1,41.99234,21.42498,"Career,Science,Technology",11:00,17:00,0
+2,Jovana Ilieva,jovana.ilieva@students.ukim.mk,Economics,1,42.0022,21.41666,"Competition,Music",16:00,22:00,0
+3,Bojan Pavlov,bojan.pavlov@students.ukim.mk,Engineering,1,42.00773,21.40781,"Technology,Volunteering",12:00,18:00,10
+4,Gjorgji Ivanov,gjorgji.ivanov@students.ukim.mk,Law,1,42.0071,21.39685,"Business,Culture,Competition",16:00,22:00,5
+5,Stefan Zdravkovski,stefan.zdravkovski@students.ukim.mk,Computer Science,4,42.0059,21.43033,"Science,Workshop,Business",12:00,18:00,10
+6,Vesna Stefanova,vesna.stefanova@students.ukim.mk,Law,3,41.99358,21.42449,"Volunteering,Music",09:00,15:00,20
+7,Sofija Lazareva,sofija.lazareva@students.ukim.mk,Law,1,41.99108,21.40691,"Networking,Culture,Art",08:00,12:00,15
+8,Monika Spasova,monika.spasova@students.ukim.mk,Computer Science,1,42.0006,21.40467,"Career,Science,Volunteering",10:00,16:00,5
+9,Dimitar Iliev,dimitar.iliev@students.ukim.mk,Engineering,4,41.99325,21.4003,"Career,Technology,Science",08:00,12:00,10
+10,Vladimir Iliev,vladimir.iliev@students.ukim.mk,Computer Science,4,41.99071,21.42413,"Career,Workshop,Language",16:00,22:00,10
+11,Emilija Angelova,emilija.angelova@students.ukim.mk,Engineering,4,42.00422,21.41508,"Workshop,Language",12:00,18:00,20
+12,Dimitar Kostov,dimitar.kostov@students.ukim.mk,Law,4,42.0071,21.43254,"Volunteering,Career,Business",16:00,22:00,10
+13,Gjorgji Mitrev,gjorgji.mitrev@students.ukim.mk,Computer Science,4,42.00755,21.39714,"Technology,Competition,Art",11:00,17:00,15
+14,Bojan Stefanov,bojan.stefanov@students.ukim.mk,Economics,2,41.99431,21.41642,"Career,Networking,Culture",09:00,21:00,10
+15,Simona Spasova,simona.spasova@students.ukim.mk,Computer Science,1,41.99088,21.41704,"Technology,Career,Student Club",11:00,17:00,0
+16,Elena Gjorgjieva,elena.gjorgjieva@students.ukim.mk,Engineering,1,42.00254,21.40261,"Career,Workshop",16:00,22:00,15
+17,Dragana Serafimova,dragana.serafimova@students.ukim.mk,Engineering,1,41.99826,21.4115,"Technology,Career,Business",09:00,15:00,10
+18,Gjorgji Gjorgjiev,gjorgji.gjorgjiev@students.ukim.mk,Computer Science,1,41.99858,21.41143,"Competition,Technology,Science",11:00,17:00,20
+19,Monika Boshkova,monika.boshkova@students.ukim.mk,Design,4,42.00578,21.40057,"Culture,Music,Technology",09:00,15:00,0
+20,Natasha Stefanova,natasha.stefanova@students.ukim.mk,Philology,1,42.00304,21.42455,"Volunteering,Language,Culture,Music",15:00,21:00,5
+21,Kiril Cvetkov,kiril.cvetkov@students.ukim.mk,Economics,1,42.00102,21.41487,"Career,Business,Networking,Art",13:00,19:00,0
+22,Marija Zdravkovska,marija.zdravkovska@students.ukim.mk,Design,1,42.00653,21.40396,"Technology,Art,Science",14:00,20:00,20
+23,Tamara Dimitrova,tamara.dimitrova@students.ukim.mk,Economics,1,41.99762,21.42205,"Networking,Business,Technology",13:00,19:00,15
+24,Kiril Nikolov,kiril.nikolov@students.ukim.mk,Computer Science,2,41.99288,21.40833,"Competition,Sport",11:00,17:00,5
+25,Nina Boshkova,nina.boshkova@students.ukim.mk,Law,4,42.00503,21.41598,"Business,Culture,Health",09:00,21:00,0
+26,Dimitar Stefanov,dimitar.stefanov@students.ukim.mk,Computer Science,3,41.9933,21.40547,"Workshop,Art",09:00,15:00,5
+27,Viktor Bogdanov,viktor.bogdanov@students.ukim.mk,Design,1,41.99812,21.40526,"Culture,Competition",08:00,12:00,5
+28,Katerina Boshkova,katerina.boshkova@students.ukim.mk,Law,1,41.99185,21.43103,"Business,Career,Networking,Health",16:00,22:00,20
+29,Sara Ivanova,sara.ivanova@students.ukim.mk,Engineering,4,41.99428,21.40411,"Career,Language",08:00,12:00,10
+30,Mile Trajkovski,mile.trajkovski@students.ukim.mk,Philology,4,42.00807,21.42796,"Culture,Language,Art,Volunteering",11:00,17:00,10
+31,Mile Serafimov,mile.serafimov@students.ukim.mk,Computer Science,3,41.99245,21.43057,"Competition,Career,Science,Volunteering",10:00,16:00,5
+32,Andrej Jovanovski,andrej.jovanovski@students.ukim.mk,Computer Science,2,41.99551,21.39645,"Workshop,Science,Career,Competition",11:00,17:00,10
+33,Aleksandar Bogdanov,aleksandar.bogdanov@students.ukim.mk,Philology,3,42.0082,21.39513,"Art,Music,Science",10:00,16:00,20
+34,Sanja Dimitrova,sanja.dimitrova@students.ukim.mk,Computer Science,1,42.00716,21.41638,"Competition,Workshop,Volunteering",14:00,20:00,0
+35,Petar Naumov,petar.naumov@students.ukim.mk,Engineering,3,41.99591,21.40664,"Competition,Workshop,Science",09:00,15:00,0
+36,Vesna Georgieva,vesna.georgieva@students.ukim.mk,Economics,3,41.99592,21.41679,"Networking,Art",10:00,16:00,10
+37,Trajche Krstev,trajche.krstev@students.ukim.mk,Engineering,2,41.99435,21.41361,"Science,Technology,Career,Competition",15:00,21:00,10
+38,Frosina Jovanovska,frosina.jovanovska@students.ukim.mk,Economics,3,41.99315,21.39546,"Competition,Business,Career,Science",11:00,17:00,5
+39,Goran Markov,goran.markov@students.ukim.mk,Engineering,3,41.9906,21.42542,"Technology,Competition,Career,Music",10:00,16:00,20
+40,Biljana Jovanovska,biljana.jovanovska@students.ukim.mk,Design,2,42.00493,21.42187,"Technology,Workshop,Culture,Health",09:00,15:00,20
+41,Biljana Spasova,biljana.spasova@students.ukim.mk,Design,2,42.00403,21.42919,"Technology,Music,Health",15:00,21:00,5
+42,Marija Pavlova,marija.pavlova@students.ukim.mk,Computer Science,2,42.00657,21.39692,"Science,Health",12:00,18:00,0
+43,Nikola Todorovski,nikola.todorovski@students.ukim.mk,Engineering,2,41.99162,21.4289,"Career,Technology,Language",16:00,22:00,10
+44,Angela Mitreva,angela.mitreva@students.ukim.mk,Law,2,42.00372,21.42749,"Volunteering,Networking,Business,Science",14:00,20:00,15
+45,Sofija Zdravkovska,sofija.zdravkovska@students.ukim.mk,Economics,3,42.00563,21.43258,"Competition,Business,Career,Health",14:00,20:00,0
+46,Emilija Trajkovska,emilija.trajkovska@students.ukim.mk,Design,1,41.99732,21.4025,"Music,Workshop,Language",10:00,16:00,10
+47,Marija Markova,marija.markova@students.ukim.mk,Computer Science,1,42.00763,21.40303,"Technology,Student Club",16:00,22:00,0
+48,Filip Lazarev,filip.lazarev@students.ukim.mk,Computer Science,1,41.99902,21.39836,"Science,Workshop,Competition,Business",10:00,16:00,0
+49,Bojan Mitrev,bojan.mitrev@students.ukim.mk,Computer Science,4,42.00086,21.43209,"Competition,Technology,Workshop",08:00,12:00,5
+50,Frosina Mitreva,frosina.mitreva@students.ukim.mk,Design,3,42.00483,21.41755,"Technology,Culture",09:00,21:00,10
+51,Monika Ristova,monika.ristova@students.ukim.mk,Computer Science,4,41.9924,21.43433,"Science,Competition,Volunteering",14:00,20:00,0
+52,Ljupcho Stefanov,ljupcho.stefanov@students.ukim.mk,Economics,3,41.99887,21.42859,"Networking,Career,Business",16:00,22:00,5
+53,Andrej Jakimovski,andrej.jakimovski@students.ukim.mk,Engineering,3,41.99656,21.41451,"Competition,Science,Sport",09:00,21:00,5
+54,Aleksandra Pavlova,aleksandra.pavlova@students.ukim.mk,Design,1,42.00757,21.39714,"Music,Culture,Student Club",16:00,22:00,15
+55,Zoran Spasov,zoran.spasov@students.ukim.mk,Law,1,41.99778,21.40384,"Culture,Volunteering,Workshop",09:00,15:00,20
+56,Isidora Boshkova,isidora.boshkova@students.ukim.mk,Engineering,1,41.99503,21.39863,"Technology,Health",15:00,21:00,20
+57,Borche Angelov,borche.angelov@students.ukim.mk,Computer Science,1,42.00111,21.42581,"Technology,Competition,Sport",15:00,21:00,5
+58,Milena Petrova,milena.petrova@students.ukim.mk,Law,1,42.00804,21.41702,"Networking,Volunteering,Career",10:00,16:00,0
+59,Zoran Markov,zoran.markov@students.ukim.mk,Engineering,4,41.99504,21.43012,"Technology,Culture",10:00,16:00,15
+60,Monika Zdravkovska,monika.zdravkovska@students.ukim.mk,Computer Science,3,42.00758,21.39712,"Career,Student Club",10:00,16:00,10
+61,Gjorgji Naumov,gjorgji.naumov@students.ukim.mk,Computer Science,2,42.00685,21.40614,"Science,Workshop,Competition",16:00,22:00,0
+62,Mile Nikolov,mile.nikolov@students.ukim.mk,Philology,3,41.99526,21.39695,"Music,Career",11:00,17:00,0
+63,Katerina Pavlova,katerina.pavlova@students.ukim.mk,Economics,1,41.99569,21.40552,"Business,Career,Workshop,Student Club",12:00,18:00,5
+64,Biljana Jovanovska,biljana.jovanovska2@students.ukim.mk,Economics,4,41.99179,21.40055,"Competition,Networking,Culture",12:00,18:00,0
+65,Milena Pavlova,milena.pavlova@students.ukim.mk,Engineering,2,41.99939,21.39692,"Competition,Health",12:00,18:00,10
+66,Marko Stojanov,marko.stojanov@students.ukim.mk,Computer Science,3,41.99087,21.426,"Career,Technology,Science,Workshop",09:00,21:00,20
+67,Viktor Angelov,viktor.angelov@students.ukim.mk,Philology,3,41.99935,21.39738,"Art,Music,Health",14:00,20:00,0
+68,Petar Todorovski,petar.todorovski@students.ukim.mk,Economics,3,41.99771,21.42582,"Business,Volunteering",12:00,18:00,5
+69,Frosina Georgieva,frosina.georgieva@students.ukim.mk,Design,3,42.00027,21.41106,"Workshop,Networking",08:00,12:00,15
+70,Vasko Ivanov,vasko.ivanov@students.ukim.mk,Computer Science,1,41.99568,21.43094,"Technology,Competition,Student Club",16:00,22:00,0
+71,Ana Boshkova,ana.boshkova@students.ukim.mk,Engineering,4,42.00693,21.41311,"Science,Culture",11:00,17:00,5
+72,Viktor Todorovski,viktor.todorovski@students.ukim.mk,Design,1,42.00042,21.4098,"Technology,Culture,Art,Volunteering",15:00,21:00,10
+73,Ivona Ilieva,ivona.ilieva@students.ukim.mk,Computer Science,1,41.99587,21.41844,"Science,Competition,Career,Workshop",08:00,12:00,15
+74,Biljana Jakimovska,biljana.jakimovska@students.ukim.mk,Economics,4,42.00615,21.43518,"Workshop,Art",15:00,21:00,10
+75,Isidora Markova,isidora.markova@students.ukim.mk,Law,2,42.00245,21.42838,"Volunteering,Career,Business,Competition",14:00,20:00,10
+76,Vladimir Nikolov,vladimir.nikolov@students.ukim.mk,Economics,1,41.99309,21.43051,"Business,Workshop,Career,Culture",15:00,21:00,10
+77,Petar Gjorgjiev,petar.gjorgjiev@students.ukim.mk,Economics,2,41.9962,21.42405,"Competition,Business,Networking,Career",16:00,22:00,5
+78,Damjan Jovanovski,damjan.jovanovski@students.ukim.mk,Law,4,42.00419,21.42342,"Networking,Health",14:00,20:00,5
+79,Stefan Ristov,stefan.ristov@students.ukim.mk,Law,2,41.99825,21.40388,"Networking,Business,Art",12:00,18:00,0
+80,Goran Naumov,goran.naumov@students.ukim.mk,Economics,4,41.99308,21.4131,"Networking,Business,Language",15:00,21:00,15
+81,Hristijan Boshkov,hristijan.boshkov@students.ukim.mk,Computer Science,4,42.00828,21.40621,"Workshop,Science,Competition,Art",15:00,21:00,10
+82,Aleksandar Jovanovski,aleksandar.jovanovski@students.ukim.mk,Engineering,2,42.00837,21.40605,"Competition,Workshop,Technology,Health",13:00,19:00,0
+83,Mile Markov,mile.markov@students.ukim.mk,Design,3,41.99464,21.42758,"Culture,Workshop",12:00,18:00,5
+84,Mile Jakimovski,mile.jakimovski@students.ukim.mk,Economics,3,42.00676,21.42097,"Workshop,Business,Competition",10:00,16:00,10
+85,Nikola Ognenov,nikola.ognenov@students.ukim.mk,Computer Science,1,41.99288,21.41642,"Career,Workshop,Technology,Volunteering",14:00,20:00,15
+86,Damjan Cvetkov,damjan.cvetkov@students.ukim.mk,Design,2,41.99186,21.42555,"Music,Language",09:00,15:00,20
+87,Ivona Georgieva,ivona.georgieva@students.ukim.mk,Computer Science,1,41.99713,21.42533,"Science,Workshop,Career",16:00,22:00,5
+88,Aleksandra Bogdanova,aleksandra.bogdanova@students.ukim.mk,Philology,4,41.99448,21.39619,"Art,Volunteering,Culture,Business",13:00,19:00,0
+89,Damjan Markov,damjan.markov@students.ukim.mk,Computer Science,4,41.99294,21.41278,"Career,Science,Competition",11:00,17:00,0
+90,Ljupcho Nikolov,ljupcho.nikolov@students.ukim.mk,Design,2,42.00763,21.39489,"Music,Technology,Sport",09:00,21:00,10
