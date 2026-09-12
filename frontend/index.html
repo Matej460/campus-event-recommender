@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Campus Events · Recommendations</title>
+  <meta name="description" content="Personalised campus event recommendations for students." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <div class="brand">
+        <span class="brand__mark" aria-hidden="true">◈</span>
+        <div>
+          <h1 class="brand__title">Campus Events</h1>
+          <p class="brand__sub">Personalised for you</p>
+        </div>
+      </div>
+      <span class="pill" id="api-status" data-state="checking">Connecting…</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- ------------------------------------------------------------ -->
+    <!-- Student picker                                               -->
+    <!-- ------------------------------------------------------------ -->
+    <section class="panel" aria-labelledby="student-heading">
+      <h2 class="panel__title" id="student-heading">Student</h2>
+
+      <label class="field">
+        <span class="field__label">Viewing recommendations for</span>
+        <select id="student-select" class="field__control">
+          <option value="">Loading students…</option>
+        </select>
+      </label>
+
+      <div class="profile" id="student-profile" hidden>
+        <div class="profile__row">
+          <span class="profile__key">Faculty</span>
+          <span class="profile__val" id="p-faculty">—</span>
+        </div>
+        <div class="profile__row">
+          <span class="profile__key">Year</span>
+          <span class="profile__val" id="p-year">—</span>
+        </div>
+        <div class="profile__row">
+          <span class="profile__key">Free between</span>
+          <span class="profile__val" id="p-time">—</span>
+        </div>
+        <div class="profile__row">
+          <span class="profile__key">Max price</span>
+          <span class="profile__val" id="p-price">—</span>
+        </div>
+        <div class="profile__row profile__row--wide">
+          <span class="profile__key">Interests</span>
+          <span class="profile__val chips" id="p-interests"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------ -->
+    <!-- Filters                                                      -->
+    <!-- ------------------------------------------------------------ -->
+    <section class="panel" aria-labelledby="filters-heading">
+      <div class="panel__head">
+        <h2 class="panel__title" id="filters-heading">Filters</h2>
+        <button type="button" class="btn btn--ghost" id="clear-filters">Clear</button>
+      </div>
+
+      <div class="filters">
+        <label class="field">
+          <span class="field__label">Category</span>
+          <select id="filter-category" class="field__control">
+            <option value="">All categories</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span class="field__label">Date</span>
+          <input type="date" id="filter-date" class="field__control" />
+        </label>
+
+        <label class="check">
+          <input type="checkbox" id="filter-free" />
+          <span>Free events only</span>
+        </label>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------ -->
+    <!-- Results                                                      -->
+    <!-- ------------------------------------------------------------ -->
+    <section aria-labelledby="results-heading">
+      <div class="tabs" role="tablist">
+        <button class="tab is-active" id="tab-reco" role="tab" aria-selected="true" data-view="recommendations">
+          Recommended
+        </button>
+        <button class="tab" id="tab-all" role="tab" aria-selected="false" data-view="events">
+          All events
+        </button>
+      </div>
+
+      <div class="results__head">
+        <h2 class="panel__title" id="results-heading">Recommended for you</h2>
+        <span class="muted" id="results-count"></span>
+      </div>
+
+      <!-- Loading state -->
+      <div id="state-loading" class="state" hidden>
+        <div class="spinner" aria-hidden="true"></div>
+        <p>Scoring events…</p>
+      </div>
+
+      <!-- Error state -->
+      <div id="state-error" class="state state--error" hidden role="alert">
+        <p class="state__title">Could not load data</p>
+        <p class="state__msg" id="error-message">Something went wrong.</p>
+        <button type="button" class="btn" id="retry-btn">Try again</button>
+      </div>
+
+      <!-- Empty state -->
+      <div id="state-empty" class="state" hidden>
+        <p class="state__title">No events match</p>
+        <p class="state__msg">
+          Nothing fits these filters for this student. Try clearing the filters
+          or picking another student.
+        </p>
+      </div>
+
+      <!-- Cards -->
+      <ul class="cards" id="cards" aria-live="polite"></ul>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <p>
+      Campus Event Recommendation System ·
+      <a href="/docs" target="_blank" rel="noopener">API docs</a>
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
