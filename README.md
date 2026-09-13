@@ -5,6 +5,8 @@ to students. Built with **FastAPI**, **PostgreSQL**, **SQLAlchemy** and a
 plain HTML/CSS/JS frontend. **No machine learning** — every score comes from
 rules that can be read, explained and defended.
 
+**Repository:** <https://github.com/Matej460/campus-event-recommender>
+
 ![Recommendations](docs/screenshots/01-recommendations-desktop.png)
 
 ---
